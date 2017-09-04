@@ -1,3 +1,5 @@
+# Implementation 9 - Vectorization Tuning (Remove Peel Loop Overhead by Aligning Array Access)
+
 ### Bonus: Logs
 
 In case you'd like to see the actual output from the `make queue-knl` run at varying multiples of `NSIZE`, I've included below the logs at each Multiple `M`.
