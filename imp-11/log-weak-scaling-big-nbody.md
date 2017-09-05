@@ -1,4 +1,4 @@
-# Implementation 11 - Cluster Communication Tuning (For Scalability)
+# Strong and Weak Scaling Studies - on Implementation 11
 
 ### Log - Weak Scaling Study - Big n-body case
 
