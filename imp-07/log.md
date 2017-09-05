@@ -1,4 +1,6 @@
-# Implementation 7 - Job Run Log
+# Implementation 7 - Scalar Tuning (Enables Aggressive Optimizations on Floating-point Data with Compiler Option)
+
+### Job Run Log
 
 ```
 ########################################################################
