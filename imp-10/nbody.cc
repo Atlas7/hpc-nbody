@@ -53,9 +53,9 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
 	// Calculate the net force
 	// Assume mass is 1 (for ease of computation)
 	// F = ma = 1*a = a
-	Fx[i-ii] += dx * oodr;  // scalar tuning
-	Fy[i-ii] += dy * oodr;  // scalar tuning
-	Fz[i-ii] += dz * oodr;  // scalar tuning
+	Fx[i-ii] += dx * drPowerN3;  // scalar tuning
+	Fy[i-ii] += dy * drPowerN3;  // scalar tuning
+	Fz[i-ii] += dz * drPowerN3;  // scalar tuning
       }
     }
 
