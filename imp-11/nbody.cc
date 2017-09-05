@@ -76,12 +76,6 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
     particle.vz[ii:TILE] += dt*Fz[0:TILE];
   }
 
-<<<<<<< HEAD
-  //#pragma omp parallel for schedule(guided)
-  // Move particles according to their velocities
-  // O(N) work, so using a serial loop
-=======
->>>>>>> 5d3dd29fd63c2c44bcf6b15958465c4ab738d46a
 #pragma omp parallel for
 #pragma vector aligned
   // Move particles according to their velocities
