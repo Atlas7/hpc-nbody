@@ -58,10 +58,7 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
   }
 
 
-  // Move particles according to their velocities
-  // O(N) work, so using a serial loop
-#pragma simd
-#pragma vector aligned
+#pragma omp parallel for
   for (int i = 0 ; i < nParticles; i++) { 
     particle.x[i]  += particle.vx[i]*dt;
     particle.y[i]  += particle.vy[i]*dt;
