@@ -1,4 +1,6 @@
-# Implementation 6 - Job run log
+# Implementation 6 - Scalar Tuning (Replace Power of Half with Square Root)
+
+### Job Run Log
 
 ```
 ########################################################################
