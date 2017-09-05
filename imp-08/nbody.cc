@@ -43,9 +43,9 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
       // Calculate the net force
       // Assume mass is 1 (for ease of computation)
       // F = ma = 1*a = a
-      Fx += dx * oodr;  // scalar tuning
-      Fy += dy * oodr;  // scalar tuning
-      Fz += dz * oodr;  // scalar tuning
+      Fx += dx * drPowerN3;  // scalar tuning
+      Fy += dy * drPowerN3;  // scalar tuning
+      Fz += dz * drPowerN3;  // scalar tuning
     }
 
     // Accelerate particles in response to the gravitational force
