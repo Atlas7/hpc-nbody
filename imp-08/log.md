@@ -1,4 +1,8 @@
-# Implementation 8 - Job Run Log
+# Implementation 8 - Vectorization Tuning (Restructure Data from AoS to SoA)
+
+From Array of Structures (AoS) fo Structure of Arrays (SoA)
+
+### Job Run Log
 
 ```
 ########################################################################
