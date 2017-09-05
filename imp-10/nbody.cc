@@ -68,6 +68,7 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
   }
 
 #pragma omp parallel for
+#pragma vector aligned
   // Move particles according to their velocities
   for (int i = 0 ; i < nParticles; i++) { 
     particle.x[i]  += particle.vx[i]*dt;
