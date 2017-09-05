@@ -78,7 +78,7 @@ int main(const int argc, const char** argv) {
   }
   
   // Perform benchmark
-  printf("\n\033[1mNBODY Version 00\033[0m\n");
+  printf("\n\033[1mNBODY Version 1\033[0m\n");
   printf("\nPropagating %d particles using 1 thread on %s...\n\n", 
 	 nParticles,
 #ifndef __MIC__
