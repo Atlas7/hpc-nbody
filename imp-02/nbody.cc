@@ -81,9 +81,12 @@ int main(const int argc, const char *argv[]) {
   }
   
   // Perform benchmark
-  printf("\n\033[1mNBODY Version 00\033[0m\n");
-  printf("\nPropagating %d particles using 1 thread on %s...\n\n", 
-	 nParticles,
+  const int version = 2; // implementation version - update as needed
+  printf("\n\033[1mNBODY Version %d\033[0m\n", version);
+  const int num_threads = omp_get_max_threads();
+  printf("\nPropagating %d particles using %d threads on %s...\n\n",
+	 nParticles, num_threads,
+
 #ifndef __MIC__
 	 "CPU"
 #else

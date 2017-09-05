@@ -1,10 +1,10 @@
 # Set Arguments to parse into code here
-NSIZE=16384  # 1N
+#NSIZE=16384  # 1N
 #NSIZE = 32768 # 2N
 #NSIZE = 65536 # 4N
 #NSIZE = 131072 # 8N
 #NSIZE = 262144 # 16N
-#NSIZE = 524288 # 32N
+NSIZE = 524288 # 32N
 
 
 # Set Compiler Stuff here
