@@ -1,10 +1,10 @@
 # Set Arguments to parse into code here
-NSIZE=16384
+#NSIZE=16384
 #NSIZE=32768
 #NSIZE=65536
 #NSIZE=131072
 #NSIZE=262144
-#NSIZE=524288
+NSIZE=524288
 
 # Set Compiler Stuff here
 CXX = icpc

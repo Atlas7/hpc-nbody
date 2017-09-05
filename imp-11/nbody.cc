@@ -29,7 +29,7 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
 
   assert(myParticles % TILE == 0);
 
-#pragma omp parallel for schedule(guided)
+#pragma omp parallel for
   // Loop over particles that experience force
   for (int ii = startParticle; ii < endParticle; ii+=TILE) {
 
@@ -79,7 +79,7 @@ void MoveParticles(const int nParticles, ParticleSetType & particle, const float
   //#pragma omp parallel for schedule(guided)
   // Move particles according to their velocities
   // O(N) work, so using a serial loop
-#pragma simd
+#pragma omp parallel for
 #pragma vector aligned
   // Move particles according to their velocities
   for (int i = 0 ; i < nParticles; i++) { 
