@@ -1,22 +1,39 @@
 # Set Arguments to parse into code here
-NODES=16
+NODES = 1
 
-#NSIZE = 16384 #1N
-#NSIZE = 32768 #2N
-#NSIZE = 786384 #3N
-#NSIZE = 65536 #4N
-#NSIZE = 1310400 #5N
-#NSIZE = 1572480
-#NSIZE=1834560 #7N
-#NSIZE = 131072 # 8N
-#NSIZE = 262144 # 16N
-#NSIZE = 524288 # 32N
-NSIZE = 1048576 #64N 
-#NSIZE = 2097152 #128N
-#NSIZE= 4194304 #256N
-#NSIZE = 8388608 #512N
+# Strong Scaling - Small nbody (Nodes = M)
+# NODES: 1, 2, 4, 8, 16, 32
+NSIZE = 16384
 
-#NSIZE=2028992 # about 7.74N
+# Strong Scaling - Big nbody (Nodes = M)
+# NODES: 1, 2, 4, 8, 16, 32
+#NSIZE = 1048576
+
+# Weak Scaling - Small nbody (Nodes = M)
+#NSIZE = 16384 #NODES = 1 
+#NSIZE = 32768 #NODES = 2
+#NSIZE = 65536 #NODES = 4
+#NSIZE = 131072 #NODES = 8
+#NSIZE = 262144 #NODES = 16
+#NSIZE = 524288 #NODES = 32
+
+# Weak Scaling - Big nbody (Nodes = M)
+#NSIZE = 262144 #NODES = 1
+#NSIZE = 524288 #NODES = 2
+#NSIZE = 1048576 #NODES = 4
+#NSIZE = 2097152 #NODES = 8
+#NSIZE = 4194304 #NODES = 16
+#NSIZE = 8388608 #NODES = 32
+
+# Sustain Duration (Nodes = M^2)
+#NSIZE = 262144 #NODES = 1
+#NSIZE = 524288 #NODES = 4
+#NSIZE = 786384 #NODES = 9
+#NSIZE = 1048576 #NODES = 16
+#NSIZE = 1310400 #NODES = 25
+#NSIZE = 1572480 #NODES = 36
+#NSIZE = 1834560 #NODES = 49
+
 
 # Set Compiler Stuff here
 CXX = mpiicpc
