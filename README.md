@@ -1,6 +1,6 @@
 # hpc-nbody
 
-Supplementary sample n-body simulation codes to run on the Colfax HPC Cluster (Intel Xeon Phi Cluster) to accompany the article [High Performance Computing (HPC) Running Intel Xeon Phi: N-body Simulation Example](http://mathalope.co.uk/2017/09/07/high-performance-computing-hpc-on-intel-xeon-phi-n-body-simulation-example/), inspired by the [Colfax How to Series - session 06 on N-body](https://colfaxresearch.com/how-series/#ses-06).
+Supplementary sample n-body simulation codes to run on the Colfax HPC Cluster (Intel Xeon Phi Cluster) to accompany the article [High Performance Computing (HPC) Running Intel Xeon Phi: N-body Simulation Example](http://mathalope.co.uk/2017/09/07/high-performance-computing-hpc-on-intel-xeon-phi-n-body-simulation-example/).
 
 # Prerequisite
 
@@ -17,5 +17,6 @@ Supplementary sample n-body simulation codes to run on the Colfax HPC Cluster (I
 
 # Reference
 
+- [High Performance Computing (HPC) Running Intel Xeon Phi: N-body Simulation Example](http://mathalope.co.uk/2017/09/07/high-performance-computing-hpc-on-intel-xeon-phi-n-body-simulation-example/)
 - [Colfax How to Series - session 06 on N-body](https://colfaxresearch.com/how-series/#ses-06)
 - [Colfax Research HOW Series Labs GitHub- 4.01 N-Body](https://github.com/ColfaxResearch/HOW-Series-Labs/tree/master/4/4.01-overview-nbody)
