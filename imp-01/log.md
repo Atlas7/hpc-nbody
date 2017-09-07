@@ -1,4 +1,4 @@
-# Implementation 1  -Baseline - No Optimization
+# Implementation 1 - Baseline - No Optimization
 
 ### Job Run Log
 
