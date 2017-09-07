@@ -14,3 +14,8 @@ Supplementary sample codes for n-body simulation on the Colfax HPC Cluster - ins
 2. Navigate to the appropriate implementation folder `imp-xx`.
 3. `make queue-knl` to compile source and submit job to run on Cluster node.
 4. Review performance log within the implementation subfolder at `log/nbody-knl.XXXXX`, where `XXXXX` is the job number.
+
+# Reference
+
+- [Colfax How to Series - session 06 on N-body](https://colfaxresearch.com/how-series/#ses-06)
+- [Colfax Research HOW Series Labs GitHub- 4.01 N-Body](https://github.com/ColfaxResearch/HOW-Series-Labs/tree/master/4/4.01-overview-nbody)
